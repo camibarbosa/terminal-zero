@@ -35,10 +35,10 @@ private final PlayerRepository players;
 
     public PlayerService(PlayerRepository players, StationProgressRepository progress,
         CommandAttemptRepository attempts, GameCatalog catalog) {
-        this.players = players; 
-        this.progress = progress; 
-        this.attempts = attempts; 
-        this.catalog = catalog;
+            this.players = players; 
+            this.progress = progress; 
+            this.attempts = attempts; 
+            this.catalog = catalog;
     }
 
     @Transactional
